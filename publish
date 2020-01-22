@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -exo pipefail
+
+IMAGE_NAME=mozmeao/aws-cli:latest
+docker build -t "$IMAGE_NAME" .
+docker push "$IMAGE_NAME"

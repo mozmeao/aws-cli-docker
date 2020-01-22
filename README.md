@@ -13,3 +13,7 @@ you can work with local files.
 ```bash
 $ aws-docker s3 sync ./ s3://my-bucket-name/
 ```
+
+## Publication
+
+To build and publish the image you can just run the `./publish` command if you're logged into the docker hub.
